@@ -61,11 +61,11 @@ class ConsulClient():
 
 if __name__ == '__main__':
     c = ConsulClient('10.20.0.162', '8500')
-    service_id = 'Messer' + '10.250.252.235' + ':' + str(10107)
+    service_id = 'Messer' + '10.250.251.23' + ':' + str(10107)
     # print(c.consul.agent.services())
 
     name = "ms2python"
-    address = '10.250.252.235'
+    address = '10.250.251.23'
     port = 10107
     tags = ['dev']
     interval = 5
